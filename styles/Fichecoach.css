@@ -1,0 +1,110 @@
+.chatroom{
+    background-color:#443F3F;
+    font-family: "shrikhand", cursive;
+    font-size: 200%;
+    color: white;
+    padding: 1%;
+    border-radius: 21px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    line-height : 120%;
+    width : 47%;
+}
+
+.Consultation{
+    background-color:#443F3F;
+    font-family: "shrikhand", cursive;
+    font-size: 200%;
+    color: white;
+    padding: 1%;
+    border-radius: 21px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+    line-height : 120%;
+    width : 47%;
+}
+
+.option9 {
+    display: flex;
+    align-content: end;
+}
+
+.titre {
+
+    margin-top: 2%;
+    font-size: 400%;
+    text-align: center;
+    color: #BBAE90;
+
+}
+
+
+.modifInfo{
+    font-size : 50%;
+
+}
+
+.photodeprofil{
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+
+    margin-top : -15%;
+    margin-right:5% ;
+}
+
+
+.photoMouhali {
+    height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    margin : 5%;
+}
+
+.blocProfil{
+    margin-top : -4%;
+    margin : 5%;
+    display : flex;
+    font-family: "dosis", sans-serif;
+    font-weight: 270;
+    line-height: 160%;
+    background-color:#443F3F;
+    color: white;
+    padding: 0 1% 0 1%;
+    width: 55%;
+    border-radius: 21px;
+    font-size: 200%;
+
+}
+
+.profildata{
+    margin-top: -8%;
+}
+
+
+.option7{
+    display:flex;
+    font-size: 50%;
+    margin-top : -4%;
+    color: #BBAE90;
+    margin-left: 20%;
+    margin-top: -4%;
+}
+
+.boutonLOGOUT{
+    font-family: "dosis", sans-serif;
+    text-align: center;
+    font-size: 130%;
+    line-height: 320%;
+    margin-top: -4%;
+    margin-left : -10%;
+    color: white;
+    padding: 1%;
+    width: 118.5%;
+    border-radius: 21px;
+    height:20%;
+}
+
+

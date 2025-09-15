@@ -1,0 +1,54 @@
+.actSport{
+    font-size: 290%;
+    text-align: right;
+}
+
+.imageActiviteSport{
+    border-radius: 21px;
+    height: 700px;
+    width: 100%;
+    margin-bottom:1%;
+    margin-top: 1%;
+}
+
+.imageAS {
+    height: 200px;
+    width: 95%;
+
+}
+
+.resume{
+    color:white;
+}
+
+.muscu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family:"shrikhand", cursive;
+    font-size: 300%;
+}
+
+.contain {
+    position: relative;
+    text-align: center;
+}
+.Coach{
+    position: absolute;
+    top: 45%;
+    font-weight: 600;
+    right: 5%;
+    display: none;
+    color: white;
+    font-family:"dosis", cursive;
+    font-size: 120%;
+}
+
+.resume{
+    text-align: center;
+    font-family: "dosis", sans-serif;
+    font-weight: lighter;
+    font-size : 140%;
+}

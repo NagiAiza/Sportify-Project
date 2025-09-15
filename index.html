@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/home.css" type="text/css" />
+    <link rel="stylesheet" href="styles/general.css" type="text/css" />
+    <link rel="stylesheet" href="styles/scrollmenu.css" type="text/css" />
+    <link rel="stylesheet" href="styles/carousel.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;500&family=Shrikhand&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        /* When the user clicks on the button,
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+</head>
+<body>
+
+<div class="blocHeader">
+    <div class="bloc1">
+        <img style="margin-top:1.5%" src="Images/sportifylogo 1.png"/>
+        <img class="image1" src="Images/photoAccueil.png" alt="Sportify photo"/>
+        <h1 class = "consult">CONSULTATION<br>
+            SPORTIVE</h1>
+       <br>
+    </div>
+    <div class="bloc2">
+
+        <div class="barrerecherche">
+            <div class="dropdown2">
+                <input class="rechercher" type="text" placeholder="Rechercher..." id="searchInput">
+                <div class="dropdown2-content" id="searchResults">
+                    <!-- Les résultats de la recherche seront ajoutés ici -->
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <a href="./index.html">ACCUEIL</a>
+            <div class="dropdown">
+                <div onclick="myFunction()" class="dropbtn">TOUT PARCOURIR</div>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="./Activites_Sportives.php">ACTIVITÉS SPORTIVES</a>
+                    <a href="Sport_Compet.php">SPORTS DE COMPÉTITION</a>
+                    <a href="salleOmnes.php">SALLES DE SPORT OMNES</a>
+                </div>
+            </div>
+            <a href="./rdv.php">RDV</a><br>
+            <a href="./login.php">COMPTE</a><br>
+        </div>
+    </div>
+</div>
+<div  class="centré">
+    <p style="text-align:center">
+        Bienvenue chez Sportify, votre partenaire en consultation sportive. Notre équipe d'experts
+        est là pour vous aider à atteindre vos objectifs sportifs. Rejoignez-nous dès maintenant et découvrez
+        votre plein potentiel avec Sportify.
+    </p>
+</div>
+<hr>
+<h1 class="soustitre">
+    DU MOIS
+</h1>
+<div class="bloc6">
+    <div class="bloc6-1">
+    </div>
+
+        <div class="slider" style="align-content: center">
+            <span id="slide-1"></span>
+            <span id="slide-2"></span>
+            <span id="slide-3"></span>
+            <span id="slide-4"></span>
+            <div class="cadre">
+                <img src="Images/ccc.png" class="slide" width="300" height="400" />
+                <img src="Images/aaa.png" class="slide" width="300" height="400" />
+                <img src="Images/bbb.png" class="slide" width="300" height="400" />
+                <img src="Images/ddd.png" class="slide" width="300" height="400" />
+            </div>
+            <div class="lesboutons">
+                <a href="#slide-1"></a>
+                <a href="#slide-2"></a>
+                <a href="#slide-3"></a>
+                <a href="#slide-4"></a>
+            </div>
+
+    </div>
+    </div>
+    <div class="bloc6-2">
+    </div>
+</div>
+<div class="citation">
+    <p>
+        "Sport for everyone !"
+    </p>
+</div>
+<div class="footer">
+    <div class="bloc7">
+        <h1 class="titleFooter">Contactez-nous</h1>
+        <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.361323803101!2d2.286033275703404!3d48.851319971331215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6701b461cfb0b%3A0x826182e3c9eae061!2s6%20Rue%20Sextius%20Michel%2C%2075015%20Paris!5e0!3m2!1sfr!2sfr!4v1685440191786!5m2!1sfr!2sfr"
+                    width="650" height="495" style="border-radius:21px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="bloc8">
+        <div class="RS">
+            <p><img src="Images/insta.png" alt="insta"/>  INSTAGRAM : @ecoleece</p>
+            <p><img src="Images/facebook.png"/>   FACEBOOK : ECE Paris</p>
+        </div>
+        <div class="Contact">
+            <p><img src="Images/envelope.png"/>   MAIL : sportify.assistance@gmail.com</p>
+            <p><img src="Images/phone.png"/>  TELEPHONE : 01 67 28 45 29</p>
+            <p><img src="Images/marker.png"/>   ADRESSE : 6 rue Sextius Michel 75015</p>
+            <p>PAYS : FRANCE</p>
+        </div>
+    </div>
+</div>
+
+<script src="javascript/recherche.js"></script>
+
+</body>
+</html>

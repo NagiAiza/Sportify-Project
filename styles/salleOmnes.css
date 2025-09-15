@@ -1,0 +1,248 @@
+hr:after {
+    margin: 0;
+
+    color: white;
+    font-family:"shrikhand", cursive;
+    font-size: 300%;
+    background:#1E1E1C;
+    content: 'NOS SERVICES';
+    padding: 0 30px 0 30px;
+    position: relative;
+    top: -40px;
+
+}
+
+hr {
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    overflow: visible;
+    text-align: center;
+    height: 1px;
+
+    margin-top: 5%;
+
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+.image1
+{
+    height: 500px;
+    width: 100%;
+    padding: 0;
+
+}
+
+.fleche{
+    background-color:#FFFFFF00;
+    font-family: "dosis", sans-serif;
+    text-align: center;
+    font-size: 130%;
+    line-height: 320%;
+    margin-top: 5%;
+    color: white;
+    padding: 1%;
+    width: 118.5%;
+    border-radius: 21px;
+    height:1%;
+}
+
+.consult{
+    font-size: 290%;
+    margin-left : 2%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.soustitre
+{
+    text-align:center;
+    font-family: "shrikhand", cursive;
+    margin-top: 3%;
+    font-weight: 300;
+    margin-bottom: 4%;
+    font-size: 300%;
+}
+
+.bouton
+{
+    padding: 0;
+    text-align:end;
+    margin: 0;
+    margin-bottom : 2%;
+    margin-right : 1%;
+}
+
+
+
+
+
+.blocblur3{
+
+    backdrop-filter: blur(10px);
+    background-color: #FFFFFF20;
+    color:#FFFFFF;
+    margin:4%;
+    padding:1%;
+    width: 100%;
+    border-radius:21px;
+    height:200px;
+    display: flex;
+}
+
+.quand{
+    font-family: "dosis", sans-serif;
+    font-size: 180%;
+    width: 25%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.ou{
+    font-family: "dosis", sans-serif;
+    font-size: 180%;
+    text-align: center;
+    width: 25%;
+    margin-top: 1%;
+}
+
+.qui{
+    font-family: "dosis", sans-serif;
+    font-size: 180%;
+    width: 25%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.quoi{
+    font-family: "dosis", sans-serif;
+    font-size: 180%;
+    width: 25%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.bloc6{
+    background-size: cover;
+    backdrop-filter: blur(30px);
+    background-image: url("../Images/Salledesport.png");
+    min-height: 800px;
+
+}
+
+.citation
+{
+    font-family: "dosis", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    font-size:70px;
+    margin: 2%;
+}
+
+.footer
+{
+    padding: 2%;
+    margin: 0;
+    display: flex;
+}
+
+.bloc7{
+    height:600px;
+    align-content: center;
+    width: 50%;
+
+}
+
+.bloc8{
+    height:600px;
+    width: 50%;
+    padding: 2%;
+
+}
+.titleFooter
+{
+    margin-top: 10px;
+    font-family: "shrikhand", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 70px;
+    height: 20%;
+}
+
+.maps
+{
+
+    width: 100%;
+    height: 80%;
+    border-radius: 20px;
+    background-color:#443F3F;
+}
+
+.RS{
+
+    width: 100%;
+    height: 25%;
+    border-radius: 20px;
+    background-color:#443F3F;
+    font-family: "dosis", sans-serif;
+    line-height : 225%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.Contact{
+    margin-top: 4%;
+    width: 100%;
+    height: 71%;
+    border-radius: 20px;
+    background-color:#443F3F;
+    font-family: "dosis", sans-serif;
+    line-height : 330%;
+    font-size: 200%;
+    text-align: center;
+
+}
+
+.bloc6{
+    background-size: contain;
+    backdrop-filter: blur(30px);
+    background-image: url("../Images/Salledesport.png");
+
+}
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Couleur de fond semi-transparente */
+    display: none; /* Par défaut, l'overlay est masqué */
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay img {
+    max-width: 70%;
+    max-height: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.souligne {
+    position: relative;
+}
+
+.souligne::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.5%; /* Décalage vers le bas */
+    width: 100%;
+    border-bottom: 2px solid white; /* Style de soulignement */
+}
+
+
